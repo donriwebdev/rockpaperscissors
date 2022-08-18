@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backBtn {
+    background-color: #F90716;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding:2px;
+    font-size: 100%;
+    font-weight: 775;
+    transform: width height 2s;
+    box-shadow: 2px 2px 5px black;
+}
+
+.backBtn:hover {
+    opacity: 0.85;
+    width: 80px;
+    height: 35px;
+}
+
+.choiceBtn {
+    object-fit: contain;
+    height: 9rem;
+    width: 9rem;
+    border: 3px solid red;
+    border-radius: 50%;
+    margin-top: 3rem;
+    padding: 0.2rem;
+    box-shadow: 0.75px 3px 10px 0.75px red;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 800;
+    text-decoration: underline;
+    transition: width height 1s;
+
+}
+
+.choiceBtn:hover {
+    background-color: red;
+    opacity: 0.75;
+    align-content: center;
+    cursor: pointer;
+    width: 9.5rem;
+    height: 9.5rem;
+
+}
+
+#computerText {
+    color: #84142D;
+    text-shadow: 2px 0.75px 2px black;
+    text-transform: capitalize;
+    padding-bottom: 0.5rem;
+}
+
+.gameBody {
+    background-color: darkslategrey;
+    flex: auto;
+    align-content: center;
+    justify-content: center;
+    background-color: gray;
+    background: gray; /* Fallback for older browsers */
+    background: -webkit-radial-gradient(black,grey,white,white,black);
+    background: radial-gradient(black,grey,white,white,black); /*chrome 10-25 , safari 5.1-6*/
+    color: black;
+}
+
+#gameDiv {
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    border: 10px solid transparent;
+    padding-bottom: 5px;
+    padding: 1rem;
+    border-image: url(https://www.clipartmax.com/png/full/440-4407862_tumblr-transparent-polaroid-frame-transparent-polaroid-frame-tumblr-png.png) 30 round;
+    margin: 1rem;
+}
+
+.gameHeader {
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'chiller', Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 800;
+    text-align: center;
+    text-shadow: 0.75px 3px 10px #C21010;
+    margin: auto;
+    justify-items: center;
+    padding: 1rem;
+}
+
+h4 {
+    display: flex;
+}
+
+img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.menu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #2C3333;
+    background-repeat: repeat-x;
+    background-image: url(https://media4.giphy.com/media/jqI3buvbN3EitBjHfB/giphy.gif?cid=6c09b9525f6nrioddb5ytzyyj2zzmmdcpzyfzmtmi8wn16tx&rid=giphy.gif&ct=s);
+    background-position: 4.5rem 3.5rem;
+    object-fit: cover;
+}
+
+#playerText {
+    color: #141E61;
+    text-shadow: 2px 0.75px 2px black;
+    text-transform: capitalize;
+}
+
+#resultText {
+    color: rgb(180, 166, 49);
+    text-shadow: 2px 0.75px 2px  black;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://www.clipartmax.com/png/full/440-4407862_tumblr-transparent-polaroid-frame-transparent-polaroid-frame-tumblr-png.png) 30 round;
+}
+
+
+#start{
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    text-decoration: underline;
+    text-shadow: rgba(21, 187, 65, 0.5);
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin:auto;
+    padding-top: 28rem;
+    display: flex;
+} 
+.startBtn {
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: underline;
+    height: 50px;
+    width: 100px;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    transition: width 1s;
+    margin:auto;
+    box-shadow: rgba(245, 3, 3, 0.85);
+}
+
+
+.startBtn:hover{
+    background-color: rgb(255, 13, 0);
+    width: 200px;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+#titlePosition {
+    align-items: center;
+    justify-items: center;
+    font-weight: 700;
+    margin:auto;
+    display: flex;
+    padding-bottom: 5rem;
+}

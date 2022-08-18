@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0"/>
+        <title>Rock, Paper, Scissor</title>
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <header>
+        <h1 class="gameHeader">Welcome Challenger</h1>
+    </header>
+   <Body class="gameBody">
+      <div id="gameDiv">
+        <h4>Wins:<span id="wins" class="winCount"></span></h4>
+        <h4>Loss:<span id="loss" class="lossCount"></span></h4>
+        
+        <h1 class="gameText" id="playerText">Player: </h1>
+        <h1 class="gameText" id="computerText">Computer: </h1>
+        <h1 class="gameText" id="resultText">Result: </h1>
+
+        <button class="choiceBtn"><img class="rock" src="images/rock.png">ROCK</button>
+        <button class="choiceBtn"><img class="paper" src="images/paper.png">PAPER</button>
+        <button class="choiceBtn"><img class="scissors" src="images/scissors.png">SCISSORS</button>
+
+      </div>
+        <script src="main.js"></script>
+   </Body>
+   <footer>
+      <input 
+        class="backBtn"
+        type="button" 
+        value="👈Back" 
+        onclick ="goBack()"
+        />
+   </footer>
+
+</html>
